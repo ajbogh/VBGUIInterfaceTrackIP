@@ -1,0 +1,29 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="VBGUIInterfaceTrackIP/My Project/Application.Designer.vb">
+    <Files>
+      <File FileName="VBGUIInterfaceTrackIP/Form1.vb" Line="1" Column="1" />
+      <File FileName="VBGUIInterfaceTrackIP/Form1.Designer.vb" Line="250" Column="121" />
+      <File FileName="VBGUIInterfaceTrackIP/Form1.resx" Line="1" Column="1" />
+      <File FileName="VBGUIInterfaceTrackIP/My Project/Application.Designer.vb" Line="35" Column="56" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="VBGUIInterfaceTrackIP" expanded="True">
+            <Node name="My Project" expanded="True">
+              <Node name="Application.myapp" expanded="True">
+                <Node name="Application.Designer.vb" selected="True" />
+              </Node>
+            </Node>
+            <Node name="Form1.vb" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

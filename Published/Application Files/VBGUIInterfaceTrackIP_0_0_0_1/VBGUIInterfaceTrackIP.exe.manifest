@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="VBGUIInterfaceTrackIP.exe" version="0.0.0.1" publicKeyToken="ea324dd21fb77799" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="VBGUIInterfaceTrackIP" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="VBGUIInterfaceTrackIP.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VBGUIInterfaceTrackIP.exe" size="22528">
+      <assemblyIdentity name="VBGUIInterfaceTrackIP" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>yfunlXf8R2kKTjMMOy1e+FFyvpc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=ADV-SUMNER\Allan" issuerKeyHash="a9ad2dd624240c53a6d6aab3783c678102a603bd" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>puzuHBGRogmYgRF75mFPVXO8FGA=</DigestValue></Reference></SignedInfo><SignatureValue>oplRkCzNO3BYqyxF6G4bjk2aDZ7lLMgknV7NK7/EH5jWcpN0+qWKAP+MgZK3lTLrVAXtqx3OH2Bp2zHCkUrhSZbXazGXBZPI87gvs5je67gPFk4J6850A7PHKdJalq1fnAAcTdJJvubrVfLMSMII9sjNxi6x8tU8yZQ9lXQIUb8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>2r2NSN8A0IZ8FhUq2SZmowlWl4zqnhrQ+KL0ezXUxK0W6ZnQjV8MNAqV1TiJ8BqFWoVMNHbPFLH5PLP73Yg/wSnN7lUI4YjG2lbO6oq/mD02ILbuRpXKXccyk/+nV4++wNeurTbw5r+WCcGoVFiQ1s5Z0VMscA/ttxW7zlYViu8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="6014bc73554f61e67b11819809a291111ceeeca6" Description="" Url=""><as:assemblyIdentity name="VBGUIInterfaceTrackIP.exe" version="0.0.0.1" publicKeyToken="ea324dd21fb77799" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ADV-SUMNER\Allan</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>QkkIieVcDtLeU2zBWY7817bUNvY=</DigestValue></Reference></SignedInfo><SignatureValue>zozbWuufwDvtFa1EADyePHAjz7oU5c3MlyAnDmTR+ogGAMRrhOIZhDntKIcC5O36is/qnpatUPsltPDXsQaYQo/6mOX1byYBpcOD9lYEHkX5bMlNbYTi4aCWNLDvW8m5FasPijyI/TBqfgFWEKf7I6Okdi0yBUzwxAIurtWWeFo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>2r2NSN8A0IZ8FhUq2SZmowlWl4zqnhrQ+KL0ezXUxK0W6ZnQjV8MNAqV1TiJ8BqFWoVMNHbPFLH5PLP73Yg/wSnN7lUI4YjG2lbO6oq/mD02ILbuRpXKXccyk/+nV4++wNeurTbw5r+WCcGoVFiQ1s5Z0VMscA/ttxW7zlYViu8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCAT6gAwIBAgIQVdP3QM8BWIxBPJMlsICskjAJBgUrDgMCHQUAMCsxKTAnBgNVBAMeIABBAEQAVgAtAFMAVQBNAE4ARQBSAFwAQQBsAGwAYQBuMB4XDTEwMDExOTIwMTQyMVoXDTExMDEyMDAyMTQyMVowKzEpMCcGA1UEAx4gAEEARABWAC0AUwBVAE0ATgBFAFIAXABBAGwAbABhAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANq9jUjfANCGfBYVKtkmZqMJVpeM6p4a0Pii9Hs11MStFumZ0I1fDDQKldU4ifAahVqFTDR2zxSx+Tyz+92IP8Epze5VCOGIxtpWzuqKv5g9NiC27kaVyl3HMpP/p1ePvsDXrq028Oa/lgnBqFRYkNbOWdFTLHAP7bcVu85WFYrvAgMBAAEwCQYFKw4DAh0FAAOBgQBB5P0Otf3tsuwJr/8AG77bFvigOTOucL06voKVsJkgLagmwQdQkiL3w0t8BvE0Hqz8+l3afzogdsKtJ1Y+hFeJeW7DLm1JFjXakQj1ZLUkj0YgdKspjdc0Bb+JrCebFonB6xIPBVfhhSaSFPyiZguUe08S+xw2DrtMKtWAcUO55A==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

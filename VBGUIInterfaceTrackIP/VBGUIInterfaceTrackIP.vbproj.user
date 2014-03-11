@@ -1,0 +1,13 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>T:\Business\DATA1\Staff\Allan\My Documents\Visual Studio 2008\Projects\VBGUIInterfaceTrackIP\Published\|http://localhost/VBGUIInterfaceTrackIP/</PublishUrlHistory>
+    <InstallUrlHistory>\\192.168.112.101\data\Business\DATA1\Staff\Allan\My Documents\Visual Studio 2008\Projects\VBGUIInterfaceTrackIP\Published\</InstallUrlHistory>
+    <SupportUrlHistory>http://www.opencodeproject.com/</SupportUrlHistory>
+    <UpdateUrlHistory>
+    </UpdateUrlHistory>
+    <BootstrapperUrlHistory>
+    </BootstrapperUrlHistory>
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>true</VerifyUploadedFiles>
+  </PropertyGroup>
+</Project>
